@@ -58,7 +58,7 @@
   
   .isbn13 {
     font-size: 10px;
-    color: white;
+    color: #d39acd;
     margin-bottom: 2px;
   }
   
@@ -86,6 +86,6 @@
   
   .url:hover,
   .url:focus {
-    background: #f31045;
+    background: #244ea8;
   }
   

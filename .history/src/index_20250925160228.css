@@ -37,32 +37,19 @@
 
   .Book {
     margin: 10px;
+    
   }
 
-.AddButton {
-  width: 220px;
-  height: 220px;
-  background: rgb(255, 255, 255);
-  color: pink;
-  font-size: 17px;
-  font-weight: 600;
-  border: 1px solid pink;
-  border-radius: 12px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
-  margin: 14px;
-  margin-top: 10px;
-  cursor: pointer;
-  transition: background 0.18s, color 0.18s, box-shadow 0.18s;
-  letter-spacing: 0.1px;
-}
-
-.AddButton:hover,
-.AddButton:focus {
-  background: #3069ed;
-  color: #fff;
-  box-shadow: 0 4px 14px rgba(48,105,237,0.18);
-}
-
+  .AddButton {
+    padding: 8em;
+    margin: 1em;
+    height: 3em;
+    border: 2px solid pink;
+    border-radius: 2%;
+    background-color: rgb(255, 237, 240);
+    color: rgb(175, 20, 82);
+    font-weight: bold;
+  }
 
 }
 

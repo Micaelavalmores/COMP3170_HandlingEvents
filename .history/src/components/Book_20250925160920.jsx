@@ -11,7 +11,7 @@ function Book ({image, title, subtitle, isbn13, price, url }) {
                 <span className="isbn13">{isbn13}</span>
                 <span className="price">{price}</span>
             </div>
-            <a className='url' href={url} target='_blank' >Learn more</a>
+            <a className='url' href={url} target="_blan" >Learn more...</a>
         </div>
     )
 }

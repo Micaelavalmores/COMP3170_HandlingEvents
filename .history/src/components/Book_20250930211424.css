@@ -9,7 +9,7 @@
     justify-content: flex-start;
     box-shadow: 0 2px 8px rgba(144, 48, 115, 0.08);
     border-radius: 12px;
-    background: pink;
+    background: #ffe5f4;
     margin: 14px;
     padding: 16px 12px 12px 12px;
     box-sizing: border-box;
@@ -35,14 +35,14 @@
   
   .By {
     font-size: 12px;
-    color: white;
+    color: #360707;
     margin-bottom: 2px;
   }
   
   .Title {
     font-size: 17px;
     font-weight: 600;
-    color: white;
+    color: #1a0404;
     margin-bottom: 2px;
     text-align: center;
     line-height: 1.2;
@@ -50,7 +50,7 @@
   
   .Subtitle {
     font-size: 13px;
-    color: white;
+    color: #666;
     margin-bottom: 6px;
     text-align: center;
     min-height: 36px;
@@ -58,7 +58,7 @@
   
   .isbn13 {
     font-size: 10px;
-    color: white;
+    color: #d39acd;
     margin-bottom: 2px;
   }
   
@@ -86,6 +86,6 @@
   
   .url:hover,
   .url:focus {
-    background: #f31045;
+    background: #244ea8;
   }
   
