@@ -9,7 +9,7 @@ function Book({ image, title, subtitle, isbn13, price, url, onRemove }) {
   };
 
   const handleRemove = (e) => {
-    e.stopPropagation(); 
+    e.stopPropagation(); // Prevent triggering selection toggle
     onRemove(isbn13);
   };
 

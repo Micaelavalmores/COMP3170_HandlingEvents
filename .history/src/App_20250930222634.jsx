@@ -7,19 +7,9 @@ import data from "../data/books.json";
 
 function App() {
   const [books, setBooks] = useState(data);
-  const [selectedBook, setSelectedBook] = useState(null);
 
-  // Remove a book by isbn13
   const handleRemove = (isbn13) => {
-    setBooks((prevBooks) => prevBooks.filter((b) => b.isbn13 !== isbn13));
-    if (selectedBook === isbn13) {
-      setSelectedBook(null); // clear selection if removed
-    }
-  };
-
-  // Toggle selection
-  const handleSelect = (isbn13) => {
-    setSelectedBook((prev) => (prev === isbn13 ? null : isbn13));
+    setBooks((prev) => prev.filter((book) => book.isbn13 !== isbn13));
   };
 
   return (
@@ -31,7 +21,7 @@ function App() {
         <div className="addButton">
           <AddButton />
         </div>
-        <div className="mainContent grid grid-cols-3 gap-4">
+        <div className="mainContent">
           {books.map((book) => (
             <Book
               key={book.isbn13}
@@ -42,8 +32,6 @@ function App() {
               price={book.price}
               url={book.url}
               onRemove={handleRemove}
-              onSelect={handleSelect}
-              isSelected={selectedBook === book.isbn13}
             />
           ))}
         </div>
