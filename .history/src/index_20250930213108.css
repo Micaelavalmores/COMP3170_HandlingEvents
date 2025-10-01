@@ -46,7 +46,7 @@
   color: pink;
   font-size: 17px;
   font-weight: 600;
-  border: 3px solid pink;
+  border: 1px solid pink;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   margin: 14px;
@@ -61,7 +61,6 @@
   background: hsl(347, 100%, 52%);
   color: #fff;
   box-shadow: 0 4px 14px rgba(48,105,237,0.18);
-  border: none;
 }
 
 
